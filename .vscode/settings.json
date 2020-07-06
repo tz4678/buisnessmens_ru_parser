@@ -1,0 +1,6 @@
+{
+  "python.pythonPath": "/home/sergey/.cache/pypoetry/virtualenvs/buisnessmens-ru-parser-jimcudA4-py3.8/bin/python",
+  // Чтобы не засирать SSD всяким говном используем то, что уже установлено в системе
+  "python.linting.pylintPath": "/usr/bin/pylint",
+  "python.formatting.blackPath": "/usr/bin/black"
+}

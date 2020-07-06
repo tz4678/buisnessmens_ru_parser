@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "buisnessmens_ru_parser"
+version = "0.1.0"
+description = ""
+authors = ["Sergey M <tz4678@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.24.0"
+lxml = "^4.5.1"
+beautifulsoup4 = "^4.9.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+buisnessmens_ru_parser = "buisnessmens_ru_parser:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
